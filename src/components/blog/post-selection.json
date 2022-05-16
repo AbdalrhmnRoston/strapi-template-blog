@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blog_post_selections",
+  "info": {
+    "displayName": "PostSelection",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
+    },
+    "SelectionHeding": {
+      "type": "string"
+    }
+  }
+}
